@@ -4,7 +4,8 @@ A c++ CLI interface to doggo.ninja.
 - C++ compiler
 - libcurl
 # Building
-```git clone https://github.com/linuxnoodle/doggo-ninja-cpp/
+```
+git clone https://github.com/linuxnoodle/doggo-ninja-cpp/
 cd doggo-ninja-cpp
 make```
 # Usage
