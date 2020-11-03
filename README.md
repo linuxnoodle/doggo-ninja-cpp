@@ -7,7 +7,8 @@ A c++ CLI interface to doggo.ninja.
 ```
 git clone https://github.com/linuxnoodle/doggo-ninja-cpp/
 cd doggo-ninja-cpp
-make```
+make
+```
 # Usage
 - `./doggo-ninja -h`                Brings up help screen.
 - `./doggo-ninja -t [token]`        Saves your token to a file.
