@@ -6,6 +6,6 @@ A c++ CLI interface to doggo.ninja.
 # Building
 ```g++ doggo-ninja.cpp -o doggo-ninja -lcurl -fpermissive```
 # Usage
-- `./doggo-ninja -h`                Brings up this screen.
+- `./doggo-ninja -h`                Brings up help screen.
 - `./doggo-ninja -t [token]`        Saves your token to a file.
 - `./doggo.ninja -u [filename]`     Uploads a file.
