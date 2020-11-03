@@ -2,6 +2,7 @@
 A c++ CLI interface to doggo.ninja.
 # Requirements
 - C++ compiler
+- make
 - libcurl
 # Building
 ```
