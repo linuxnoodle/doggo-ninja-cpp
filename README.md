@@ -4,7 +4,7 @@ A c++ CLI interface to doggo.ninja.
 - C++ compiler
 - libcurl
 # Building
-```g++ doggo-ninja.cpp -o doggo-ninja -lcurl -fpermissive```
+```g++ -O1 doggo-ninja.cpp -o doggo-ninja -lcurl -fpermissive```
 # Usage
 - `./doggo-ninja -h`                Brings up help screen.
 - `./doggo-ninja -t [token]`        Saves your token to a file.
