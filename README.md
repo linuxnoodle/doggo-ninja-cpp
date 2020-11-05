@@ -3,7 +3,7 @@ A c++ CLI interface to doggo.ninja.
 # Requirements
 - C++ compiler
 - make
-- libcurl
+- libcurl (currently looking for windows alternative)
 # Building
 ```
 git clone https://github.com/linuxnoodle/doggo-ninja-cpp/ && cd doggo-ninja-cpp && make
@@ -14,5 +14,4 @@ git clone https://github.com/linuxnoodle/doggo-ninja-cpp/ && cd doggo-ninja-cpp 
 - `./doggo.ninja -u [filename]`     Uploads a file.
 # TODO
 - Fix Windows support
-- Fix MacOS support
 - Add ability to upload from clipboard
