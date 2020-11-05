@@ -138,13 +138,13 @@ int main(int argc, char *argv[]){
                     tokenFile << argv[2];
                     tokenFile.close();
 
-                    cout << "Token written to file at" << strcat(getenv("APPDATA"), "\\token.txt") << endl;
+                    cout << "Token written to file at" << strcat(getenv("APPDATA"), "\\doggo-token.txt") << endl;
                 #else
-                    tokenFile.open(strcat(getenv("HOME"), "/.local/share/token.txt"), fstream::out);
+                    tokenFile.open(strcat(getenv("HOME"), "/.config/doggo-token.txt"), fstream::out);
                     tokenFile << argv[2];
                     tokenFile.close();
 
-                    cout << "Token written to file at " << "~/.local/share/token.txt" << endl;
+                    cout << "Token written to file at " << "~/.config/doggo-token.txt" << endl;
                 #endif
             } else {
                 cerr << "ERROR: Token not valid." << endl;
